@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#home" class="logo"> Aakash
+            <span>Kumar</span></a>
+
+        <i class='bx bx-menu' id='menu-icon'></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hey, I'M <span>Aakash</span></h1>
+            <h3> A <span>Frontend Developer </span></h3>
+            <p>
+            <p>A passionate Frontend Developer with expertise in HTML, CSS, JavaScript, and React.
+                I love creating user-friendly and visually appealing web applications.</p>
+            </p>
+
+            <div class="social-icons">
+                <a href="https://www.github/com/aakashkr97">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/aakashkr97">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="https://www.instagram.com">
+                    <i class='bx bxl-instagram-alt'></i>
+                </a>
+                <a href="https://www.facebook.com">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#aakashkr7897@gmail.com/9263799695" class="btn">Hire</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="me2.jpg.jpeg" alt="Aakash's Image">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="me1.jpg.jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>
+            <p>I graduated with a degree in Commerce from Ranchi University and have been dedicated to frontend
+                development ever since.
+                My journey started with building small Projects and has now progressed to creating good web
+                applications.
+                In my spare time, I enjoy learning new technologies and contributing to open-source projects.</p>
+            </p>
+            <a href="aakashkr7897@gmail.com" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bxs-devices'></i>
+                    <h4>Frontend Developement</h4>
+                    <p>Creating responsive and interactive
+                        web applications using the latest technologies such as HTML, CSS, JavaScript, and React.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-code'></i>
+                    <h4>Backend Developement</h4>
+                    <p>Building server-side applications
+                        and APIs using technologies like Node.js, Express, and databases like MongoDB and SQL.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <i class='bx bx-code-curly'></i>
+                    <h4>Fullstack Developement</h4>
+                    <p>Providing complete web solutions from front-end design to back-end implementation,
+                        ensuring seamless integration and performance optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class='bx bxl-html5'></i>
+                <h4>HTML</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-css3'></i>
+                <h4>CSS</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-javascript'></i>
+                <h4>JavaScript</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-react'></i>
+                <h4>React</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-nodejs'></i>
+                <h4>Node.js</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-expressjs'></i>
+                <h4>Express</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-mongodb'></i>
+                <h4>MongoDB</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-data'></i>
+                <h4>MySQL</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-github'></i>
+                <h4>GitHub</h4>
+            </div>
+            <div class="skill-box">
+                <i class='bx bxl-bootstrap'></i>
+                <h4>Bootstrap</h4>
+            </div>
+        </div>
+        <div class="skill-details" id="skill-details">
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="" method="post">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="email" required>
+                </div>
+
+                <div class="input-box">
+                    <input type="tel" name="phone" placeholder="Phone Number" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="send message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="#">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-linkedin-square'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-twitter'></i>
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+
+        <p class="copyright">
+            @ Aakash Kumar | All Rights Reserved
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
